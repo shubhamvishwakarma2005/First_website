@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.top {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/coffee_image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#navbar h1 {
+    font-family: "Clicker Script", cursive;
+    font-size: 35px;
+}
+
+#navbar ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+#navbar a {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+#navbar a:nth-child(2) {
+    padding: 9px 12px;
+    color: black;
+    background-color: #f9c06a;
+    border-radius: 30px;
+}
+
+.box1 {
+    width: 700px;
+}
+
+.p1 {
+    font-size: 22px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.coffee {
+    font-size: 200px;
+    margin-left: 100px;
+    font-family: "Clicker Script", cursive;
+}
+
+.p2 {
+    font-size: 22px;
+    margin-left: 100px;
+    line-height: 1.5;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: #f9c06a;
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: "playfair display";
+}
+
+#discover-outer {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Discover1 {
+    height: 200px;
+    width: 500px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 45px;
+    color: #603809;
+    margin-bottom: 40px;
+}
+
+#Discover1 p {
+    font-size: 18px;
+    color: #707070;
+}
+
+#cup {
+    height: 400px;
+    width: 400px;
+}
+
+#coffce-blast1 {
+    height: 500px;
+    width: 600px;
+    margin-bottom: 400px;
+}

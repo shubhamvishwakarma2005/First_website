@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1 {
+            height: 300px;
+            width: 300px;
+            background-color: #287580;
+            border: 5px solid green;
+            border-top-right-radius: 150px;
+        }
+
+        #box2 {
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            border: 5px solid green;
+            border-radius: 150px;
+            border-bottom-left-radius: 0px;
+        }
+        .box{
+            width: 400px;
+           display: grid;
+           grid-template-columns: repeat(2 ,1fr);
+           gap: 15px;
+        }
+        #box3 {
+            height: 200px;
+            width: 200px;
+            background-color: #f7c66a;
+            margin-left: 100px;
+            border: 3px solid black;
+        }
+
+        #box4 {
+            height: 200px;
+            width: 200px;
+            background-color: #f7c66a;
+            margin-left: 100px;
+            border: 3px solid black;
+            box-shadow: 5px 5px rgb(122, 120, 120);
+        }
+
+        #box5 {
+            height: 200px;
+            width: 200px;
+            background-color: #f7c66a;
+            margin-left: 100px;
+            border: 3px solid black;
+            border-radius: 30px;
+        }
+
+        #box6 {
+            height: 200px;
+            width: 200px;
+            background-color: #f7c66a;
+            margin-left: 100px;
+            border: 3px solid black;
+            box-shadow: inset 5px 5px rgb(122, 120, 120);
+            border-radius: 30px;
+        }
+        #box7{
+            height: 200px;
+            width: 200px;
+            background-color: #f7c66a;
+            margin-left: 100px;
+            border: 3px solid black;
+            box-shadow: inset 5px 5px rgb(122, 120, 120);
+            border-radius: 30px;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box1"></div>
+    <br><br>
+    <div id="box2"></div> <br> <br>
+
+
+    <div class="box">
+        <div id="box3"></div>
+        <div id="box4"></div>
+
+        <div id="box5"></div>
+
+        <div id="box6"></div>
+    </div>
+    <br><br><br>
+    <div id="box7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolorem sit quos eius voluptas dolore, dignissimos commodi impedit officia, eveniet consectetur laboriosam tempora delectus, itaque totam? Architecto sapiente labore dolores.</div>
+</body>
+
+</html>
